@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MY SHOP</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+
+
+ 
+</head>
+<body>
+
+  <ul>
+    <li><a class="active"><h1>MYSHOP</h1></a></li>
+    <li class="dropdown" style="float:right">
+      <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </li>
+  </ul>
+
+
+<div class="grid-container" id="myData">
+ 
+    <div class="grid-item">
+      <img src="https://github.com/neeliadithyasai/html_project/raw/master/1.jpg" style="width:25%">
+    
+    </div>
+    <div class="grid-item" >
+      <h3>Column 2</h3>
+     <!-- <img src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" style="width:75%">
+      <p id="myp">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p> -->
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    
+ 
+</div>
+<script>
+
+  var ad;
+  fetch('https://raw.githubusercontent.com/neeliadithyasai/html_project/master/Javascript/people.json')
+      .then(function (response) {
+          return response.json();
+      })
+      .then(function (data) {
+          appendData(data);
+      })
+      .catch(function (err) {
+          console.log('error: ' + err);
+      });
+  function appendData(data) {
+      var mainContainer = document.getElementById("myData");
+       ad = data;
+      console.log(data);
+      for (var i = 0; i < data.length; i++) {
+          var div = document.createElement("div");
+          div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
+          div.className = "grid-item";
+          mainContainer.appendChild(div);
+      }
+  }
+</script>
+</body>
+</html>
