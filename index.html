@@ -30,7 +30,7 @@
 <script>
 
   var ad;
-  fetch('https://raw.githubusercontent.com/neeliadithyasai/ecommerce/master/people.json?token=AOKV7DFAD42BZWBW52DFTJLAGHGR4')
+  fetch('https://raw.githubusercontent.com/neeliadithyasai/ecommerce/master/people.json')
       .then(function (response) {
           return response.json();
       })
@@ -61,10 +61,10 @@
 
             div.appendChild(h);
 
-            // var p = document.createElement('p'); 
-            // p.textContent = "$"+data[i].productPrice;
+            var p = document.createElement('p'); 
+            p.textContent = "$"+data[i].productPrice;
 
-            // div.appendChild(par);
+            div.appendChild(p);
 
         //div.innerHTML = 'Name: ' + data[i].productName;
 

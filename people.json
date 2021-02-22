@@ -3,7 +3,7 @@
         "id": "p1",
         "productName": "Adidas",
         "product description": "Good for Running",
-        "productPrice": "23",
+        "productPrice": "40",
         "imageUrl":"https://raw.githubusercontent.com/neeliadithyasai/ecommerce/master/images/1.jpg"
        
     },
@@ -11,7 +11,7 @@
         "id": "p2",
         "productName": "Adidas",
         "product description": "Doe",
-        "productPrice": "23",
+        "productPrice": "70",
         "imageUrl":"https://raw.githubusercontent.com/neeliadithyasai/ecommerce/master/images/2.jpg?token=AOKV7DGDXSW74ABP7YHOT2DAGHFK6"
        
     },
@@ -19,21 +19,21 @@
         "id": "p3",
         "productName": "Under Armour",
         "product description": "Doe",
-        "productPrice": "23",
+        "productPrice": "80",
         "imageUrl":"https://raw.githubusercontent.com/neeliadithyasai/ecommerce/master/images/3.webp?token=AOKV7DDVGNJQUEFJJZCFHD3AGHFO2"
     },
     {
         "id": "p4",
         "productName": "Nike",
         "product description": "Doe",
-        "productPrice": "23",
+        "productPrice": "76",
         "imageUrl":"https://raw.githubusercontent.com/neeliadithyasai/ecommerce/master/images/4.jpg?token=AOKV7DE2OFGQCHKILNND7T3AGHFRM"
     },
     {
         "id": "p5",
         "productName": "puma",
         "product description": "Doe",
-        "productPrice": "23",
+        "productPrice": "100",
         "imageUrl":"https://raw.githubusercontent.com/neeliadithyasai/ecommerce/master/images/5.webp?token=AOKV7DHQAOHIV2F5PBTQW6TAGHFSU"
     }
 ]
