@@ -1,37 +1,37 @@
 [
     {
         "id": "p1",
-        "productName": "Shoes",
+        "productName": "Adidas",
         "product description": "Good for Running",
         "productPrice": "23",
-        "imageUrl":"https://github.com/neeliadithyasai/html_project/raw/master/1.jpg"
+        "imageUrl":"https://raw.githubusercontent.com/neeliadithyasai/ecommerce/master/images/1.jpg"
        
     },
     {
         "id": "p2",
-        "productName": "John",
+        "productName": "Adidas",
         "product description": "Doe",
         "productPrice": "23",
-        "imageUrl":" https://raw.githubusercontent.com/neeliadithyasai/ecommerce/master/images/2.jpg?token=AOKV7DGDXSW74ABP7YHOT2DAGHFK6"
+        "imageUrl":"https://raw.githubusercontent.com/neeliadithyasai/ecommerce/master/images/2.jpg?token=AOKV7DGDXSW74ABP7YHOT2DAGHFK6"
        
     },
     {
         "id": "p3",
-        "productName": "John",
+        "productName": "Under Armour",
         "product description": "Doe",
         "productPrice": "23",
         "imageUrl":"https://raw.githubusercontent.com/neeliadithyasai/ecommerce/master/images/3.webp?token=AOKV7DDVGNJQUEFJJZCFHD3AGHFO2"
     },
     {
         "id": "p4",
-        "productName": "John",
+        "productName": "Nike",
         "product description": "Doe",
         "productPrice": "23",
         "imageUrl":"https://raw.githubusercontent.com/neeliadithyasai/ecommerce/master/images/4.jpg?token=AOKV7DE2OFGQCHKILNND7T3AGHFRM"
     },
     {
         "id": "p5",
-        "productName": "John",
+        "productName": "puma",
         "product description": "Doe",
         "productPrice": "23",
         "imageUrl":"https://raw.githubusercontent.com/neeliadithyasai/ecommerce/master/images/5.webp?token=AOKV7DHQAOHIV2F5PBTQW6TAGHFSU"
